@@ -1,0 +1,109 @@
+/* Navbar Brand */
+.navbar-brand {
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar-brand > a {
+    display: inline-block;
+    max-width: 200px;
+    max-height: 80px;
+}
+.navbar-brand > a > img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+/* Navbar CSS */
+.navbar{
+    background: #1515bb;
+}
+.navbar .navbar-collapse {
+    justify-content: space-between;
+}
+.navbar .navbar-collapse .nav-left, 
+.navbar .navbar-collapse .nav-right {
+    width: 25%;
+}
+.navbar .navbar-collapse .nav-center{
+    width: 75%;
+}
+.navbar .navbar-collapse .nav-center.navbar-nav{
+    justify-content: center;
+} 
+.search-form > form {
+    position: relative;
+}
+.search-form > form > input[type="search"] {
+    width: 100%;
+    min-height: 40px;
+    padding: 5px 40px 5px 10px;
+    background: transparent;
+    border: 1px solid #ffffff;
+    border-radius: 0;
+    outline: 0;
+}
+.search-form > form > button[type="submit"] {
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    background: transparent;
+    border: none;
+    border-radius: 0;
+    color: #ffffff;
+    transition: all 0.3s ease-in;
+}
+.search-form > form > button[type="submit"]:hover,
+.search-form > form > button[type="submit"]:focus{
+    background: #ffffff;
+    color: #1515bb;
+}
+.search-form > form > input[type="search"]::placeholder,
+.search-form > form > input[type="search"]:-moz-placeholder,
+.search-form > form > input[type="search"]::-moz-placeholder,
+.search-form > form > input[type="search"]:-ms-input-placeholder,
+.search-form > form > input[type="search"]::-ms-input-placeholder,
+.search-form > form > input[type="search"]::-webkit-input-placeholder {
+    color: #ffffff !important;
+}
+/* Footer CSS */
+.site-footer .widget-area {
+    padding: 50px 30px;
+}
+.site-footer .widget-area:nth-child(1) {
+    background: #5f5fff;
+}
+.site-footer .widget-area:nth-child(2) {
+    background: #4646ff;
+}
+.site-footer .widget-area:nth-child(3) {
+    background: #3030fb;
+}
+.site-footer .widget-title {
+    margin-bottom: 40px;
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 1;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.site-footer ul{
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+.site-footer ul li,
+.site-footer a{
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+.site-footer a:hover{
+    color: #333333;
+}
